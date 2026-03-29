@@ -1,0 +1,58 @@
+import { ImpactProject } from "@/types";
+
+export const impactProjects: ImpactProject[] = [
+  {
+    id: "ureport",
+    category: "youth",
+    categoryLabel: "Youth Empowerment",
+    title: "U-Report Sierra Leone",
+    description: "Led UNICEF's U-Report platform scaling from 85,000 to 200,000+ members in 5 months through 18 school and community talk shows, 2 press conferences, and 15 polls on education, health, and democracy.",
+    metric: "↑ 135% member growth in 5 months",
+    partners: "UNICEF, World Bank, Government of Sierra Leone",
+  },
+  {
+    id: "parliamentary",
+    category: "governance",
+    categoryLabel: "Governance",
+    title: "Youth Parliamentary & Leadership Summits",
+    description: "Designed and implemented national summits bringing hundreds of young leaders into direct dialogue with policymakers, shaping national youth policy and governance frameworks.",
+    metric: "National youth policy influence",
+    partners: "Restless Development, CARE International, Ministry of Youth Affairs",
+  },
+  {
+    id: "ambassadors",
+    category: "youth",
+    categoryLabel: "Youth Empowerment",
+    title: "YACAP Youth Ambassador Program",
+    description: "Built and led a network of 5,000+ youth ambassadors focused on education, employment, and poverty reduction through structured mentorship, training, and community advocacy.",
+    metric: "5,000+ ambassadors active",
+    partners: "YACAP, Local governments, community organizations",
+  },
+  {
+    id: "ict",
+    category: "youth",
+    categoryLabel: "Youth Empowerment",
+    title: "United 4 Salone – Youth ICT Program",
+    description: "Trained 120 young people in ICT skills, career readiness, and professional development through a structured skills development initiative.",
+    metric: "120 youth trained in ICT",
+    partners: "United 4 Salone",
+  },
+  {
+    id: "media",
+    category: "media",
+    categoryLabel: "Media & Advocacy",
+    title: "Democratic Governance Media Programs",
+    description: "Produced and hosted radio programs covering democratic governance, women's and girls' rights, and policy advocacy - including discussions on the safe abortion bill and youth participation.",
+    metric: "National broadcast reach",
+    partners: "Sierra Leone journalists associations, media houses",
+  },
+  {
+    id: "policy",
+    category: "governance",
+    categoryLabel: "Governance",
+    title: "U-Report Policy Influence",
+    description: "Published 15 polls and factsheets on education, health, youth empowerment, social protection, and democracy - data that directly informed World Bank programming and government planning.",
+    metric: "15 polls informing policy",
+    partners: "UNICEF, World Bank, Government ministries",
+  },
+];
