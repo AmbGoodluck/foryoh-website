@@ -1,5 +1,4 @@
 import { Mail } from "lucide-react";
-import ContactForm from "@/components/forms/ContactForm";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 
 const socialLinks = [
@@ -51,13 +50,6 @@ export default function ContactSection() {
                   </a>
                 ))}
               </div>
-            </div>
-          </ScrollReveal>
-
-          {/* Right */}
-          <ScrollReveal direction="right">
-            <div className="card p-10 shadow-xl">
-              <ContactForm />
             </div>
           </ScrollReveal>
         </div>
