@@ -20,6 +20,7 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
+  icons: { icon: '/favicon.svg', shortcut: '/favicon.svg' },
   title: 'Sheku Foryoh | Youth Leader & Civic Advocate',
   description:
     'Sheku Foryoh — Sierra Leonean youth leader, civic advocate, and founder of YACAP. Over a decade of national service in youth governance, digital engagement, and community development.',
