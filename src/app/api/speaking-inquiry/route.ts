@@ -3,7 +3,6 @@ import { NextResponse } from "next/server";
 import { Resend } from "resend";
 import { speakingInquirySchema } from "@/lib/validations";
 
-export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
 export async function POST(request: Request) {
