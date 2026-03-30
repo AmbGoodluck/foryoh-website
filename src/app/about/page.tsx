@@ -1,3 +1,5 @@
+import AutoSlider from "@/components/ui/AutoSlider";
+
 const TIMELINE = [
   {
     year: 'Early',
@@ -35,7 +37,6 @@ const TIMELINE = [
     body: 'Joined the board of Restless Development, connecting Sierra Leone\'s national youth agenda to a global network of peer-led international development organisations.',
   },
 ]
-import AutoSlider from "@/components/ui/AutoSlider";
 
 const ABOUT_GALLERY = [
   { src: "/assets/about/about-hero.jpeg", alt: "Sheku Foryoh portrait" },
