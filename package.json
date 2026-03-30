@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "dev:port4000": "cross-env PORT=4000 next dev",
-    "build": "npx vercel build && npx @cloudflare/next-on-pages --skip-build",
-    "vercel-build": "next build --webpack",
+    "build": "npx @opennextjs/cloudflare build",
     "start": "next start",
     "lint": "eslint"
   },
