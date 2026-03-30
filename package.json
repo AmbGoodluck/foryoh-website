@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "dev:port4000": "cross-env PORT=4000 next dev",
-    "build": "next build --webpack && npx @opennextjs/cloudflare build --skipNextBuild && cp .open-next/worker.js .open-next/assets/_worker.js",
+    "build": "next build --webpack && npx @opennextjs/cloudflare build --skipNextBuild && cp .open-next/worker.js .open-next/assets/_worker.js && cp -r .open-next/cloudflare .open-next/middleware .open-next/server-functions .open-next/.build .open-next/assets/",
     "start": "next start",
     "lint": "eslint"
   },
